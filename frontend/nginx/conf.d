@@ -1,11 +1,10 @@
 server {
-    listen       80;
-    server_name  localhost;
+    listen 80;
+    server_name localhost;
+    root /usr/share/nginx/html;
 
     location / {
-        root   /usr/share/nginx/html;
-        index  index.html index.htm;
-                # Исправляем роутинг на фронтенде
+        # Исправляем роутинг на фронтенде
         try_files $uri $uri/ /index.html;
     }
 }
