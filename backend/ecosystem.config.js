@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: 'kupi-backend',
-      script: 'dist/app.js',
+      script: 'dist/main.js',
     },
   ],
 };
