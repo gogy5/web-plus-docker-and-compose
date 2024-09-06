@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8fa9c2e-0042-48d4-905e-609437dd0bd6" name="Changes" comment="Added frontend and backend">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/nginx/conf.d" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/nginx/default.conf" afterDir="false" />
-    </list>
+    <list default="true" id="e8fa9c2e-0042-48d4-905e-609437dd0bd6" name="Changes" comment="Added frontend and backend" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725639852955</updated>
-      <workItem from="1725639854187" duration="23030000" />
+      <workItem from="1725639854187" duration="23428000" />
     </task>
     <task id="LOCAL-00001" summary="Added frontend and backend">
       <created>1725641462694</created>
@@ -318,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725665044418</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Added frontend and backend">
+      <created>1725665919658</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1725665919658</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
