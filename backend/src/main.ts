@@ -9,7 +9,7 @@ async function bootstrap() {
 
   app.enableCors();
 
-  app.use(helmet());
+  // app.use(helmet());
   app.useGlobalPipes(new ValidationPipe());
   app.useGlobalFilters(new HttpExceptionFilter());
   await app.listen(3000);
