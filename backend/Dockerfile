@@ -2,7 +2,7 @@ FROM node:16-alpine AS builder
 WORKDIR /app
 COPY package*.json ./
 
-RUN npm ci
+RUN npm ci --no-audit --no-fund
 
 COPY . .
 RUN npm build
@@ -12,8 +12,10 @@ WORKDIR /app
 
 COPY --from=builder /app/package*.json ./
 
-RUN npm --prod
+RUN npm ci --omit=dev --no-audit --no-fund
 
 COPY --from=builder /app/dist ./dist/
 
-CMD ["pm2 start", "./dist/main.js"]
+RUN npm ci -g pm2
+COPY ./ecosystem.config.js ./
+ENTRYPOINT [ "pm2-runtime", "start", "ecosystem.config.js" ]
