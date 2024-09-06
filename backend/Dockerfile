@@ -16,6 +16,6 @@ RUN npm ci --omit=dev --no-audit --no-fund
 
 COPY --from=builder /app/dist ./dist/
 
-RUN npm ci -g pm2
+RUN npm i -g pm2
 COPY ./ecosystem.config.js ./
 ENTRYPOINT [ "pm2-runtime", "start", "ecosystem.config.js" ]
