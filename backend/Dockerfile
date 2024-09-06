@@ -5,7 +5,7 @@ COPY package*.json ./
 RUN npm ci --no-audit --no-fund
 
 COPY . .
-RUN npm build
+RUN npm run build
 
 FROM node:16-alpine as production
 WORKDIR /app
