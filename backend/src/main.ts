@@ -12,8 +12,8 @@ async function bootstrap() {
 
   app.enableCors({
     origin: [
-      'http://kupi-5.nomorepartiesco.ru/',
-      'https://kupi-5.nomorepartiesco.ru/',
+      'http://kupi-5.nomorepartiesco.ru',
+      'https://kupi-5.nomorepartiesco.ru',
     ],
   });
 
