@@ -9,6 +9,14 @@ async function bootstrap() {
   app.use(helmet());
   app.useGlobalPipes(new ValidationPipe());
   app.useGlobalFilters(new HttpExceptionFilter());
+
+  app.enableCors({
+    origin: [
+      'http://kupi-5.nomorepartiesco.ru/',
+      'https://kupi-5.nomorepartiesco.ru/',
+    ],
+  });
+
   await app.listen(3000);
 }
 bootstrap();
