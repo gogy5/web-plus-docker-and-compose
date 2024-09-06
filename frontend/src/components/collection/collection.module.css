@@ -67,36 +67,36 @@
 
 .fashion {
   display: block;
-  background-image: url("src/images/fashion.jpg");
+  background-image: url("../../images/fashion.jpg");
   grid-area: fashion;
 }
 
 .witches {
   display: block;
-  background-image: url("src/images/witches.jpg");
+  background-image: url("../../images/witches.jpg");
   grid-area: witches;
 }
 
 .director {
   display: block;
-  background-image: url("src/images/director.jpg");
+  background-image: url("../../images/director.jpg");
   grid-area: director;
 }
 
 .home {
   display: block;
-  background-image: url("src/images/home.jpg");
+  background-image: url("../../images/home.jpg");
   grid-area: home;
 }
 
 .music {
   display: block;
-  background-image: url("src/images/music.jpg");
+  background-image: url("../../images/music.jpg");
   grid-area: music;
 }
 
 .minimal {
   display: block;
-  background-image: url("src/images/minimal.jpg");
+  background-image: url("../../images/minimal.jpg");
   grid-area: minimal;
 }

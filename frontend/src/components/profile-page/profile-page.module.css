@@ -47,7 +47,7 @@
 }
 
 .file_input {
-  background: url("src/images/icons/attach.svg") no-repeat scroll 508px 12px;
+  background: url("../../images/icons/attach.svg") no-repeat scroll 508px 12px;
   background-color: var(--grey-color-3);
   width: 100%;
   padding: 12px 16px;
