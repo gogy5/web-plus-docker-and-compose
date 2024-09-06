@@ -87,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725639852955</updated>
-      <workItem from="1725639854187" duration="16993000" />
+      <workItem from="1725639854187" duration="19424000" />
     </task>
     <task id="LOCAL-00001" summary="Added frontend and backend">
       <created>1725641462694</created>
@@ -250,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725655947254</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added frontend and backend">
+      <created>1725658344431</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1725658344431</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
