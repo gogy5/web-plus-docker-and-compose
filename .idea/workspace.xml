@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8fa9c2e-0042-48d4-905e-609437dd0bd6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/web-plus-docker-and-compose.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/ecosystem.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/nest-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/pnpm-lock.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/app.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/auth/auth.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/auth/auth.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/auth/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/config/dbConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/config/jwtConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/entities/base.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/filters/http-exception.filter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/filters/utils/business-exception-description-mapping.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/filters/utils/business-exception.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/filters/utils/exception-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/filters/utils/http-exception-description-mapping.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/guards/auth.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/guards/local.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/hash/hash.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/hash/hash.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interceptors/offer-confidential-data-interceptor.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interceptors/user-confidential-data-interceptor.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interceptors/wish-confidential-data-interceptor.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interceptors/wishlist-confidential-data-interceptor.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/offers/dto/create-offer.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/offers/dto/update-offer.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/offers/entities/offer.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/offers/offers.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/offers/offers.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/offers/offers.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/strategies/jwt.strategy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/strategies/local.strategy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/users/dto/create-user.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/users/dto/find-user.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/users/dto/update-user.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/users/entities/user.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/users/users.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/users/users.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/users/users.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/validators/forbidden-to-change.validator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/wishes/dto/create-wish.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/wishes/dto/update-wish.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/wishes/entities/wish.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/wishes/wishes.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/wishes/wishes.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/wishes/wishes.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/wishlists/dto/create-wishlist.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/wishlists/dto/update-wishlist.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/wishlists/entities/wishlist.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/wishlists/wishlists.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/wishlists/wishlists.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/wishlists/wishlists.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tsconfig.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/app/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/app/app.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/app/app.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/collection/collection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/collection/collection.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/collection/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/footer/footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/footer/footer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/footer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/gift-page/gift-page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/gift-page/gift-page.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/gift-page/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/good-card/good-card.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/good-card/good-card.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/good-card/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/header/header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/header/header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/main-page/card-lists-view.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/main-page/collections-view.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/main-page/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/main-page/main-page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/main-page/main-page.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/main-page/subheader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/private-route/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/private-route/private-route.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/profile-page/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/profile-page/profile-page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/profile-page/profile-page.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/recovery-password/recovery-password.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/recovery-password/recovery-password.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/search-bar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/search-bar/search-bar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/search-bar/search-bar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/search-box/search-box.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/search-box/search-box.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/search-page/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/search-page/search-page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/search-page/search-page.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/sign-in/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/sign-in/sign-in.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/sign-in/sign-in.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/sign-up/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/sign-up/sign-up.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/sign-up/sign-up.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/box.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/button-return/button-return.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/button-return/button-return.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/button/button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/button/button.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/input/input.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/input/input.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/loading-box/loading-box.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/loading-box/loading-box.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/message/message.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/message/message.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/modal/modal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/modal/modal.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/select/select.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/select/select.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/textarea/textarea.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/textarea/textarea.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/user-page/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/user-page/user-page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/user-page/user-page.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/user-search-card/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/user-search-card/user-search-card.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/user-search-card/user-search-card.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/user-supported-card/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/user-supported-card/user-supported-card.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/user-supported-card/user-supported-card.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/wishlist-page/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/wishlist-page/wishlist-page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/wishlist-page/wishlist-page.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/fonts/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/director.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/fashion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/gift.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/home.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/icons/approve.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/icons/attach.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/icons/avatar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/icons/cancel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/icons/check-black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/icons/check-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/icons/edit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/icons/gift.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/icons/home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/icons/like.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/icons/link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/icons/login.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/icons/logo-mini.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/icons/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/icons/logout.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/icons/no-preview.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/icons/preview.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/icons/profile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/icons/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/icons/trash-red.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/icons/trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/minimal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/music.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/witches.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/functions.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2lhkmIE2SvpTzE5eVbQ1Mvv1ZRm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ilko-/IdeaProjects/yandex/web-plus-docker-and-compose",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8fa9c2e-0042-48d4-905e-609437dd0bd6" name="Changes" comment="" />
+      <created>1725639852955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725639852955</updated>
+      <workItem from="1725639854187" duration="1059000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
