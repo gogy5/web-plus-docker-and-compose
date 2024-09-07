@@ -7,7 +7,7 @@ RUN npm ci --no-audit --no-fund
 COPY . .
 RUN npm run build
 
-FROM nginx:alpine AS frontend-nginx
+FROM nginx:latest AS frontend-nginx
 WORKDIR /app
 
 COPY --from=builder app/build /usr/share/nginx/html
